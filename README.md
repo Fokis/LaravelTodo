@@ -17,7 +17,8 @@ Installation
 - open terminal
 - navigate to project root
 - cp .env.example .env 
-- git submodule add https://github.com/laradock/laradock.git
+- git submodule init 
+- git submodule update
 - cd laradock
 - cp env-example .env 
 - docker-compose up -d nginx mysql
